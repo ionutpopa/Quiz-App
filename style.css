@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header {
+  padding: 4vh;
+}
+
+.footer {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+}
+
+.question {
+  padding: 5vh 0;
+}
+
+.col-sm:nth-child(2) {
+  margin: 0 6vh;
+}
+
+.row {
+  margin: 5vh 0;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
